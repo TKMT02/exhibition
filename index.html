@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1年生展示会サイト 一年生一覧</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <meta name="description" content="東京電子専門学校のウェブ・メディア科１年生が作成した進級制作の展示会サイトです。１年間で培った技術などを合わせて「ポートフォリオ」・「進級制作」を制作しました。これらの制作物を是非ご覧ください。">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main_script.js" defer></script>   <!--ヘッダー要素のみ-->
+    <script src="./js/listShow.js" defer></script>
+    <script src="https://kit.fontawesome.com/ec4cc7b1ae.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.net.min.js"></script>
+    <script src="./js/vantaAnime.js" defer></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWKTS7GBBM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-ZWKTS7GBBM');
+    </script>
+</head>
+<body>
+    <div id="vantaAnime">
+        <div class="mainvisual" width="1200" height="500" loading="lazy"></div>
+        <header class="toppage__header">
+            <ul class="toppage__item">
+                <li class="toppage__item--profile"><a href="#">1年生一覧</a></li> <!--current__item--profile-->
+                <li class="toppage__item--portfolio"><a href="#">ポートフォリオ一覧</a></li>   <!--current__item--portfolio-->
+                <li class="toppage__item--prm"><a href="#">進級制作一覧</a></li> <!--current__item--prm-->
+            </ul>
+        </header>
+
+        <div class="container">
+            <!-- 完了しました。 -->
+            <section class="profile__main hidden" id="profile">
+                <ul class="profile__list">
+                    <!-- ここにプロフィール一覧を表示させる -->
+                </ul>
+            </section>
+
+            <section class="portfolio__main hidden" id="portfolio">
+                <ul class="portfolio__list">
+                    <!-- ここにポートフォリオ一覧を表示させる -->
+                </ul>
+            </section>
+
+
+            <section class="prm__main hidden" id="prm">
+                <ul class="prm__list">
+                    <!-- ここに進級制作一覧を表示させる -->
+                </ul>
+            </section>
+            <section id="overview">
+                <div class="overview__container">
+                    <ul>
+                        <li class="overview__survey">
+                            <a href="./form/form_select.html">
+                                <i class="fa-solid fa-file-lines"></i>
+                                アンケートへ</a>
+                        </li>
+                        <li class="overview__top">
+                            <a href="https://2023graduation.tokyo-ec.net/">
+                                <i class="fa-solid fa-link"></i>
+                                本サイトへ</a>
+                        </li>
+                        <li class="overview__explain" onclick="OpenModal();">
+                            <p><i class="fa-solid fa-circle-info"></i>制作クレジット</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="overview__modal">
+                    <div class="overview__modal--inner">
+                        <div class="overview__modal--content">
+                            <div class="overview__modal--close" onclick="OpenModal();"></div>
+                            <h1>制作クレジット</h1>
+                            <ul>
+                                <li>
+                                    <h2>コーディング</h2>
+                                    <p>No.14 塚本 貴士</p>
+                                </li>
+                                <li>
+                                    <h2>デザイン</h2>
+                                    <p>No.10 佐藤 彩香　</p>
+                                    <p>No.17 平塚 英太郎</p>
+                                </li>
+                                <li>
+                                    <h2>画像編集・加工など</h2>
+                                    <p>No.02 浅田</p>
+                                    <p>No.03 安部</p>
+                                    <p>No.12 高橋</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="MenuBtn">
+            <ul class="MenuBtn__item">
+                <li><a href="./form/form_select.html">1年生<br>アンケートへ</a></li>
+                <li><a href="https://2023graduation.tokyo-ec.net/">展示会<br>本サイトへ</a></li>
+            </ul>
+        </div>
+        
+        <footer class="footer">
+            <p class="copyright">© 2024 東京電子専門学校1年生 展示会委員会</p>
+        </footer>
+    </div>
+</body>
+</html>

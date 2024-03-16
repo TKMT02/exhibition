@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1年生展示会サイト 一年生一覧</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/link_script.js" defer></script>
+    <script src="./js/profile.js" defer></script>
+    <script src="https://kit.fontawesome.com/ec4cc7b1ae.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.net.min.js"></script>
+    <script src="./js/vantaAnime.js" defer></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWKTS7GBBM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-ZWKTS7GBBM');
+    </script>
+</head>
+<body>
+    <div id="vantaAnime">
+        <div class="mainvisual" width="1200" height="500" loading="lazy"></div>
+        <header class="toppage__header">
+            <ul class="toppage__item">
+                <li class="toppage__item--profile current__item--profile"><a href="#">1年生一覧</a></li> <!--current__item--profile-->
+                <li class="toppage__item--portfolio "><a href="#">ポートフォリオ一覧</a></li>   <!--current__item--portfolio-->
+                <li class="toppage__item--prm "><a href="#">進級制作一覧</a></li> <!--current__item--prm-->
+            </ul>
+        </header>
+
+        <section id="profile__profile">
+            <div class="profile__container--fist">
+                <div class="content__names fadeIn">
+                    <p class="content--class"></p>
+                    <h1 class="content--name"></h1>
+                </div>
+                <div class="prfoile__left--wrap fadeIn">
+                    <img src="#" alt="" class="profile--image">
+                </div>
+                <div class="profile__right--wrap fadeIn">
+                    <ul class="content__other">
+                        <li class="content--item">
+                            <h2>希望職種</h2>
+                            <p class="content--work"></p>
+                        </li>
+                        <li class="content--item">
+                            <h2>所持資格</h2>
+                            <p class="content--qualification"></p>
+                        </li>
+                        <li class="content--item">
+                            <h2>趣味</h2>
+                            <p class="content--hobby"></p>
+                        </li>
+                    </ul>
+                    <a href="#" class="item--portfolioURL" target="_blank">ポートフォリオはこちら</a>    
+                </div>
+
+                <div class="profile__folder fadeIn">
+                    <div class="folder--content">
+                        <h2 class="hope__ttl">未来の自分へ一言</h2>
+                        <div class="hope__img">
+                            <img src="#" alt="ロゴデザイン" class="item--logo_design">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="profile__hopetext fadeIn">
+                    <div class="hopetext--content">
+                        <h3 class="hope__word"></h3>
+                        <p class="hope__reason"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="profile__video" class="profile__video">
+            <iframe src="https://www.youtube.com/embed/KBkVvrYt3WQ?si=rgAnxqKYSIrNvv0G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="profile__content--video"></iframe>
+        </section>
+
+
+
+        <div class="middle_text">
+            <h2>作品選抜</h2>
+        </div>
+
+        <section id="profile__prm">
+            <div class="prm__ttl">
+                <h2>進級制作について</h2>
+            </div>
+            <div class="prm__container">
+                <div class="prm__image">
+                    <a href="#" class="prm_URL"><img src="#" alt="#" class="content--prmImage"/></a>
+                </div>
+                <p class="prm__reason"></p>
+            </div>
+        </section>
+
+        <div class="middle_text">
+            <h2>ほかの方の作品もぜひご覧ください！</h2>
+        </div>
+        <div class="container">
+            <section class="profile__main" id="profile">
+                <ul class="profile__list">
+                <!-- ここにプロフィール一覧を表示させる -->
+                </ul>
+            </section>
+        </div>
+    
+        <footer>
+            <p class="copyright">© 2024 東京電子専門学校1年生 展示会委員会</p>
+        </footer>
+    </div>
+</body>
+</html>

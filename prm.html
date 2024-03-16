@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1年生展示会サイト 進級制作詳細ページ</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/link_script.js" defer></script>
+    <script src="./js/prm.js" defer></script>   <!--ヘッダー要素のみ-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.net.min.js"></script>
+    <script src="./js/vantaAnime.js" defer></script>
+    <script src="https://kit.fontawesome.com/ec4cc7b1ae.js" crossorigin="anonymous"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWKTS7GBBM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-ZWKTS7GBBM');
+    </script>
+</head>
+<div>
+    <div id="vantaAnime">
+        <div class="mainvisual" width="1200" height="500" loading="lazy"></div>
+        <header class="toppage__header">
+            <ul class="toppage__item">
+                <li class="toppage__item--profile"><a href="#">1年生一覧</a></li> <!--current__item--profile-->
+                <li class="toppage__item--portfolio"><a href="#">ポートフォリオ一覧</a></li>   <!--current__item--portfolio-->
+                <li class="toppage__item--prm"><a href="#">進級制作一覧</a></li> <!--current__item--prm-->
+            </ul>
+        </header>
+        
+        <main class="fadeIn">
+            <section id="prm__content__text">
+                <div class="prm--header">
+                    <div class="prm__head">
+                        <p class="prm__content--explain1">説明短い</p>
+                        <h1 class="prm__content--ttl">タイトル</h1>
+                    </div>
+                </div>
+                <div id="prm__video" class="prm__video">
+                    <iframe src="#" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="prm__content--video"></iframe>
+                </div>
+
+                <div class="prm--container">
+                    <h1></h1>
+                    <div class="prm__group">
+                        <div class="prm__text">
+                            <p class="prm__content--head">グループ名</p>
+                            <h2 class="prm__content--name">グループ名</h2>
+                        </div>
+
+                        <div class="prm__text">
+                            <p class="prm__content--head">メンバー</p>
+                            <h2 class="prm__content--member">メンバー名</h2>
+                        </div>
+                    </div>
+
+                    <div class="prm__explains">
+                        <p class="prm__content--head">この作品について・・・</p>
+                        <h2 class="prm__content--explain2">説明２</h2>
+                    </div>
+                </div>
+
+
+
+            </section>
+
+            <section class="prm__content--prpoint" id="prpoint">
+                <div class="prm__ttl">
+                    <h2>進級制作について</h2>
+                </div>
+                <div class="prm__wrap">
+                    <div class="prm__fvImage">
+                        <img src="https://placehold.jp/300x300.png" alt="#" class="content--prmFvImage"/>
+                    </div>
+                    <p class="prm__reason"></p>
+                </div>
+            </section>
+
+            <div class="middle_text">
+                <h2>制作者の紹介</h2>
+                <p>是非ご覧ください</p>
+            </div>
+
+            <section id="prm__member--profile">
+                <div class="container">
+                    <ul class="profile__list">
+                        <!-- ここにポートフォリオ一覧を表示させる -->
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer class="footer current__item--prm">
+            <p class="copyright">© 2024 東京電子専門学校1年生 展示会委員会</p>
+        </footer>
+    </div>
+</body>
+</html>
