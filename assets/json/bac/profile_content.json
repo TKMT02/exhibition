@@ -1,0 +1,413 @@
+{
+    "G101":[
+        {
+            "class":"G101",
+            "number": "1",
+            "name": "岩上 恭久",
+            "kana": "いわかみ やすひさ",
+            "work": "フロントエンジニア",
+            "qualification": "文部科学省後援 色彩検定 UC級、第二種電気工事士",
+            "hobby": "ゲーム",
+            "hope_word": "自由",
+            "hope_reason": "学生生活中はあまり自分で考えて好きなことをやるということをしなかったので、少しずつでもいいから自分で色々なことを考えて自由に生きてほしいと思ったからです。今からでも遅くはないのですが、発想力が乏しく、何かをしたいという考えになれないので、少しずつ何かをやりたいという考えをつけていこうと思います。",
+            "prm_reason": "進級制作は二人での共同作業だったのですが、どのように作業を分けるか、二人が納得いく要素が考えられるか、などの問題解決に苦労しました。",
+            "youtubeURL": "https://www.youtube.com/embed/bip6_FqhLyg?si=D_mE9WJLfEyPq4lY",
+            "portfolioURL": "/first/G101.html",
+            "prm_image": "GP01"
+        }
+    ],
+    "H101":[
+        {
+            "class":"H101",
+            "number": "2",
+            "name": "浅田 和輝",
+            "kana": "あさだ かずき",
+            "work": "Webデザイナー",
+            "qualification": "文部科学省後援 色彩検定 UC級、普通自動車第一種運転免許",
+            "hobby": "キャンプ",
+            "hope_word": "ファイト！",
+            "hope_reason": "WEBデザイナーになって仕事をし、私の父のような「良いお父さん」になってほしい。",
+            "prm_reason": "進級製作を終えて、グループ内での役割分担やスケジュール管理の難しさを学びました。また、他校との交流会の際に進級製作のデザインについてレビューをもらい、とても刺激になりました。",
+            "youtubeURL": "https://www.youtube.com/embed/gRAJB5wLIss?si=RXCEp1y6ItDiBiFh",
+            "portfolioURL": "https://kazukiasada-2003.weblike.jp/Port-Folio/main/index.html",
+            "prm_image": "GP09"
+        }
+    ],
+    "H102":[
+        {
+            "class":"H102",
+            "number": "3",
+            "name": "安部 虎太朗",
+            "kana": "あべ こたろう",
+            "work": "フロントエンジニア",
+            "qualification": "文部科学省後援 色彩検定 UC級",
+            "hobby": "猫と遊ぶこと",
+            "hope_word": "がんばれ",
+            "hope_reason": "一人暮らししたいです。猫が飼えたらいいなと思ってます",
+            "prm_reason": "コーディング作業をほぼ一人で行ってとても大変でしたが、就職したら一人での作業は当たり前になると思うのでいい経験になりました。",
+            "youtubeURL": "https://www.youtube.com/embed/2Y9V4kSYIes?si=cOTZyPXdPd-42Rbq",
+            "portfolioURL": "https://ver-39-0416.kikirara.jp/PortFolio/index.html",
+            "prm_image": "GP09"
+        }
+    ],
+    "H103":[
+        {
+            "class":"H103",
+            "number": "4",
+            "name": "大関 恵太",
+            "kana": "おおぜ きけいた",
+            "work": "Webデザイナー",
+            "qualification": "文部科学省後援 ビジネス文書検定 3級、文部科学省後援 色彩検定 UC級",
+            "hobby": "作曲",
+            "hope_word": "自信",
+            "hope_reason": "自信を持って行動すれば全て上手くいく",
+            "prm_reason": "他人に見られることを想定したwebサイトを作るということが想像以上に難しかった",
+            "youtubeURL": "https://www.youtube.com/embed/vA7UXtsIX2Y?si=479SRQIqLUTo4Zqw",
+            "portfolioURL": "https://2023graduation.tokyo-ec.net/first/pf/h103/start.html",
+            "prm_image": "GP03"
+        }
+    ],
+    "H104":[
+        {
+            "class":"H104",
+            "number": "5",
+            "name": "大友 陸久",
+            "kana": "おおとも りく",
+            "work": "Webデザイナー",
+            "qualification": "なし",
+            "hobby": "サッカー観戦",
+            "hope_word": "成長",
+            "hope_reason": "未来の自分に成長したなと実感させるために当たり前の事などを当たり前にやり、今頑張ってることなどをやり続けることで成長につながると思ったので成長という言葉にしてみました。",
+            "prm_reason": "初めての一人でのwebサイト制作で全然わからないことだらけだったけど自分で調べて自力でやるということが大切だと思った。あとその調べたことをメモなどをして覚えておくことがさらに大切だと思いました。",
+            "youtubeURL": "https://www.youtube.com/embed/foEg_aVBsAs?si=yLp6rCxPB1Euis_o",
+            "portfolioURL": "https://super-ebino-3483.mongolian.jp/",
+            "prm_image": "GP08"
+        }
+    ],
+    "H105":[
+        {
+            "class":"H105",
+            "number": "6",
+            "name": "加藤 桃香",
+            "kana": "かとう ももか",
+            "work": "Webデザイナー",
+            "qualification": "文部科学省後援 色彩検定 UC級、全経簿記能力検定 3級、秘書検定 3級",
+            "hobby": "LIVEに行くこと",
+            "hope_word": "挑戦",
+            "hope_reason": "楽に働いててほしい",
+            "prm_reason": "大変だったけど完成して良かったです。",
+            "youtubeURL": "https://www.youtube.com/embed/r43YPxAGJto?si=iIlqOWkUk2MaDqiQ",
+            "portfolioURL": "https://2023graduation.tokyo-ec.net/first/pf/h105/top.html",
+            "prm_image": "GP07"
+        }
+    ],
+    "H106":[
+        {
+            "class":"H106",
+            "number": "7",
+            "name": "小菅 柊斗",
+            "kana": "こすげ しゅうと",
+            "work": "Webデザイナー",
+            "qualification": "普通自動車第一種運転免許",
+            "hobby": "好きなアーティストのライブ行く",
+            "hope_word": "幸希望",
+            "hope_reason": "心が穏やかでいられるくらい幸せになっていてほしい。",
+            "prm_reason": "グループ制作は難しい",
+            "youtubeURL": "https://www.youtube.com/embed/4tYypzutquE?si=1eqlRDbSSju31rk5",
+            "portfolioURL": "https://kosuge.chu.jp/PFnewsaito/PFnewsaito/portforiosaito/",
+            "prm_image": "GP14"
+        }
+    ],
+    "H107":[
+        {
+            "class":"H107",
+            "number": "8",
+            "name": "小林 侑史",
+            "kana": "こばやし ゆうじ",
+            "work": "フロントエンジニア",
+            "qualification": "普通自動車第一種免許",
+            "hobby": "野球観戦",
+            "hope_word": "無理せず",
+            "hope_reason": "たとえ期間が迫っていても、無理して徹夜したりして、短い睡眠時間で動くと余計に作業が進まなくなるので、無理せず余裕を持って生きていきたい。",
+            "prm_reason": "一人でデザインからコーディングまで作成するのはとても大変でした。未熟さを感じたのでこれから１年成長していけるよう頑張っていきたいと思います。",
+            "youtubeURL": "https://www.youtube.com/embed/sh26XHA1VVM?si=DgGV5ly3ibnk9TAX",
+            "portfolioURL": "https://2023graduation.tokyo-ec.net/first/pf/h107/html/",
+            "prm_image": "GP05"
+        }
+    ],
+    "H108":[
+        {
+            "class":"H108",
+            "number": "9",
+            "name": "佐々木 茉優",
+            "kana": "ささき まゆ",
+            "work": "Webデザイナー",
+            "qualification": "普通自動車第一種免許",
+            "hobby": "音楽、映画、ドラマ鑑賞",
+            "hope_word": "楽しむ",
+            "hope_reason": "自分が楽しいと思える仕事を見つけて、趣味も楽しんで私生活を充実させる。",
+            "prm_reason": "どの年代の方が見ても見やすいページにするためにメンバーと話し合ってデザインや色味を決めたのが良い経験になりました。",
+            "youtubeURL": "https://www.youtube.com/embed/ZO9iYK33_tk?si=apnWefVRPILyQrcd",
+            "portfolioURL": "https://23ab0018.girly.jp/portfolio/",
+            "prm_image": "GP11"
+        }
+    ],
+    "H109":[
+        {
+            "class":"H109",
+            "number": "10",
+            "name": "佐藤 彩香",
+            "kana": "さとう あやか",
+            "work": "Webデザイナー",
+            "qualification": "文部科学省後援 色彩検定 2級、ITパスポート試験",
+            "hobby": "絵を描くこと",
+            "hope_word": "笑顔で",
+            "hope_reason": "大変なことや辛いことがあっても、楽しいことをして、美味しいものをいっぱい食べて笑顔で前向きでいれば大丈夫。大抵の困難は思っているよりなんとかなるはず。人生笑ったもん勝ち精神で！",
+            "prm_reason": "作品を制作するにあたって、最初は一人で出来るのか不安でしたが、様々な本やサイトを参考にしたり、先生や友人の力を借りて無事作り上げることが出来ました。進級制作を通してWeb制作に全力で取り組むことができたので、良い経験になりました。",
+            "youtubeURL": "https://www.youtube.com/embed/FI9iEZAhK4M?si=6c42Xjq8S4YVVuEe",
+            "portfolioURL": "https://2023graduation.tokyo-ec.net/first/pf/h109/",
+            "prm_image": "GP04"
+        }
+    ],
+    "H110":[
+        {
+            "class":"H110",
+            "number": "11",
+            "name": "周 君宝",
+            "kana": "シュウ クンホウ",
+            "work": "Webデザイナー",
+            "qualification": "文部科学省後援 色彩検定 1級、ウェブリテラシー検定 3級",
+            "hobby": "ガンプラを買うこと",
+            "hope_word": "アバアバ",
+            "hope_reason": "どうだろう",
+            "prm_reason": "まだまだ改善する余地がある。",
+            "youtubeURL": "https://www.youtube.com/embed/07CO5uwpKTA?si=xvZ8I7CHWr6zn69o",
+            "portfolioURL": "https://2023graduation.tokyo-ec.net/first/pf/h110/",
+            "prm_image": "GP14"
+        }
+    ],
+    "H111":[
+        {
+            "class":"H111",
+            "number": "12",
+            "name": "高橋 志穏",
+            "kana": "たかはし しおん",
+            "work": "Webデザイナー",
+            "qualification": "ITパスポート試験、文部科学省後援 色彩検定UC級、文書デザイン検定試験1級、日本語ワープロ検定試験2級",
+            "hobby": "好きなことはアニメを見ること、推し活、お出掛け",
+            "hope_word": "我逢人",
+            "hope_reason": "この言葉の意味として人と会うことからすべてが始まる。という意味があり、今の自分でも数々の出会いがあり、そこで未来が変わるポイントとなるものだと思っているのでよく、友人と出会っていなかった世界線を僕は想像したりします。未来の自分も人見知りしていたりすると思うので、出会いを大事にしてほしいという意味で我逢人という言葉を選びました。",
+            "prm_reason": "進級制作で最初は簡単だろうと思いましたが、色々と考えたりすることが多くなり条件も自由度が高く逆に難しいと感じた部分もありましたが完成できて一安心でした。",
+            "youtubeURL": "https://www.youtube.com/embed/ximpGpI_Jyg?si=twKw9sQTgu8jdP_I",
+            "portfolioURL": "https://2023graduation.tokyo-ec.net/first/pf/h111/",
+            "prm_image": "GP02"
+        }
+    ],
+    "H112":[
+        {
+            "class":"H112",
+            "number": "13",
+            "name": "田中 遼太郎",
+            "kana": "たなか りょうたろう",
+            "work": "Webデザイナー",
+            "qualification": "なし",
+            "hobby": "食べること",
+            "hope_word": "金大事",
+            "hope_reason": "何かを作って誰かを喜ばせることのできる人間！",
+            "prm_reason": "自分成果物を載せるだけではなく、ポートフォリオを作る楽しみを得れた。",
+            "youtubeURL": "https://www.youtube.com/embed/v2d_5M4L298?si=vdqC1Ohg9WBJus1f",
+            "portfolioURL": "https://2023graduation.tokyo-ec.net/first/pf/h112/main/",
+            "prm_image": "GP13"
+        }
+    ]
+    ,
+    "H113":[
+        {
+            "class":"H113",
+            "number": "14",
+            "name": "塚本 貴士",
+            "kana": "つかもと たかし",
+            "work": "フロントエンジニア",
+            "qualification": "MOS 2019 EXCEL、文部科学省後援 色彩検定 UC級",
+            "hobby": "プログラミング",
+            "hope_word": "成長",
+            "hope_reason": "これまでの自分の技術をもとに楽しい人生を送れているでしょうか。 専門学校やこれまでの学習を活かして成長していてほしいです。 これからも進化していくテクノロジーとともに、自身の技術も成長できるようこれからも頑張りたいと思います！",
+            "prm_reason": "進級制作では、システム開発に携わりJSで構築しました。繰り返し行われる処理を一つにまとめたり、JSONファイルを用いてメンテナンスの効率化など自分なりに満足いく仕上がりとなり、とても充実した作品制作になりました。",
+            "youtubeURL": "https://www.youtube.com/embed/SnX9JvurAXU?si=HPd08fBDcj7TuYcS",
+            "portfolioURL": "https://tkmt-takashi.main.jp/portfolio",
+            "prm_image": "GP13"
+        }
+    ],
+    "H114":[
+        {
+            "class":"H114",
+            "number": "15",
+            "name": "戸田 聖也",
+            "kana": "とだ せいや",
+            "work": "Webデザイナー",
+            "qualification": "文部科学省後援 色彩検定 UC級",
+            "hobby": "車でドライブ",
+            "hope_word": "TRY",
+            "hope_reason": "まずはチャレンジする事を身に付けたい。自分はどちらかと言うと慎重に物事を判断し安定を選びがちで、自分が納得行くまで行動できないことが多いので、まずはtryしてみて物事を判断していきたい。",
+            "prm_reason": "グループ制作でしたがみんなが一人一人作品に注力した作品になったと思います。個人が得意とする分野を多く取りまとめ、うまくデザインできたと思います。",
+            "youtubeURL": "https://www.youtube.com/embed/4PmSfV4-S5k?si=MsxiBpumYT_BVPDE",
+            "portfolioURL": "https://2023graduation.tokyo-ec.net/first/pf/h114/",
+            "prm_image": "GP12"
+        }
+    ],
+    "H115":[
+        {
+            "class":"H115",
+            "number": "16",
+            "name": "西村 遼河",
+            "kana": "にしむら りょうが",
+            "work": "Webデザイナー",
+            "qualification": "文部科学省後援 色彩検定 UC級",
+            "hobby": "音楽鑑賞",
+            "hope_word": "自由",
+            "hope_reason": "自由気ままにやりたいことをやって生きていきたいという願いであり目標。",
+            "prm_reason": "自分は主に企業概要のページとCSSアニメーションを作成しました。初めてのCSSアニメーションで、躓きながらではありましたが、チームメンバーと協力し、無事完成させることができました。",
+            "youtubeURL": "https://www.youtube.com/embed/80s-B7Z1dbY?si=MxyUwsPpk8huR9R7",
+            "portfolioURL": "https://2023graduation.tokyo-ec.net/first/pf/h115/home/home.html",
+            "prm_image": "GP12"
+        }
+    ],
+    "H117":[
+        {
+            "class":"H117",
+            "number": "17",
+            "name": "平塚 英太郎",
+            "kana": "ひらつか えいたろう",
+            "work": "Webデザイナー",
+            "qualification": "文部科学省後援 色彩検定 UC級、Web検定 Webリテラシー",
+            "hobby": "読書",
+            "hope_word": "邁進",
+            "hope_reason": "入学後、自分のなりたい未来像に向けて前進してきました。この勢いを止めることなく、来年度もより成長できるよう、理想の未来像に向けて努力していきたいです。",
+            "prm_reason": "進級制作では、主に企画とサイトデザイン、コーディングを担当しました。チーム制作で慣れないこともありましたが、最終的に納得の行く作品になってよかったです。",
+            "youtubeURL": "https://www.youtube.com/embed/_D9zqPaYk_E?si=2KfRXu2EiMwJeb7H",
+            "portfolioURL": "https://tec23etr-hrtk.sunnyday.jp/23pf/top.html",
+            "prm_image": "GP13"
+        }
+    ],
+    "H118":[
+        {
+            "class":"H118",
+            "number": "18",
+            "name": "松元 弓紗",
+            "kana": "まつもと ゆさ",
+            "work": "Webデザイナー",
+            "qualification": "文部科学省後援 色彩検定 UC級",
+            "hobby": "漫画・アニメ鑑賞、バドミントン",
+            "hope_word": "挫けない",
+            "hope_reason": "何事も挫けず励み、まずは行動に移してみる。 自身の実力向上のためより一層の研鑽を積む。",
+            "prm_reason": "自分のスキルも発揮でき、チームメンバー同士のサポートや協力によって効率的に進められることや、得意分野を互いに学び合うことができる良い機会となりました。",
+            "youtubeURL": "https://www.youtube.com/embed/NliE7leyRy4?si=CL_jqQXO1ANCSn1o",
+            "portfolioURL": "/first/H118.html",
+            "prm_image": "GP11"
+        }
+    ],
+    "H119":[
+        {
+            "class":"H119",
+            "number": "19",
+            "name": "三井 泰地",
+            "kana": "ミツイ タイチ",
+            "work": "Webデザイナー",
+            "qualification": "Web検定Webリテラシー、文部科学省後援 色彩検定UC級",
+            "hobby": "カメラ",
+            "hope_word": "継続",
+            "hope_reason": "毎日の学習を怠らず、継続して努力し続けましょう。",
+            "prm_reason": "グループでの制作のため進捗の共有や仕事の分担など苦労もありましたが、無事完成まで辿り着いてよかったと思います。",
+            "youtubeURL": "https://www.youtube.com/embed/1sdk-1_9278?si=63f62sxtEzHX4ema",
+            "portfolioURL": "https://2023graduation.tokyo-ec.net/first/pf/h119/top.html",
+            "prm_image": "GP12"
+        }
+    ],
+    "H120":[
+        {
+            "class":"H120",
+            "number": "20",
+            "name": "宮岡 愛斗",
+            "kana": "みやおか あいと",
+            "work": "Webデザイナー",
+            "qualification": "計算技術検定３級、ガス溶接、フォークリフト",
+            "hobby": "寝",
+            "hope_word": "がんば",
+            "hope_reason": "何をしているのかしらないけど長生きはしないでほしいです。30までは頑張って生きていると思います。",
+            "prm_reason": "大変",
+            "youtubeURL": "https://www.youtube.com/embed/oLr7A1LHHEg?si=Xt2i8XQ8pnPhrh1a",
+            "portfolioURL": "https://2023graduation.tokyo-ec.net/first/pf/h120/",
+            "prm_image": "GP14"
+        }
+    ],
+    "H121":[
+        {
+            "class":"H121",
+            "number": "21",
+            "name": "村上 魁",
+            "kana": "むらかみ かい",
+            "work": "Webデザイナー",
+            "qualification": "色彩検定UC級、第一種自動車運転免許(AT限定)",
+            "hobby": "釣り、ゲーム",
+            "hope_word": "頑張れ",
+            "hope_reason": "テレワークで仕事をしていて高給取りになっている。",
+            "prm_reason": "初めてデザインからコーディングをやった作品でとても大変だったがスキルが上がったと思うので良かった。",
+            "youtubeURL": "https://www.youtube.com/embed/M-sS0Jesn_E?si=LhO1TTPBXPrHOYUL",
+            "portfolioURL": "https://2023graduation.tokyo-ec.net/first/pf/h121/",
+            "prm_image": "GP06"
+        }
+    ],
+    "H122":[
+        {
+            "class":"H122",
+            "number": "22",
+            "name": "八木 元生",
+            "kana": "やぎ げんき",
+            "work": "フロントエンジニア",
+            "qualification": "WEBリテラシー",
+            "hobby": "好きな楽曲：リローディング/vα-liv",
+            "hope_word": "一瀉千里",
+            "hope_reason": "未来の私はきっと、餃子を食べている。好物だから。",
+            "prm_reason": "「いつからいつまでは作業を進める時間です」とかっちり決め込まないとまともに作業ができなかった。思い返すと、今までのあらゆる作業でもそうだった。フリーランスにはなれないのだと痛感した。",
+            "youtubeURL": "https://www.youtube.com/embed/1zppLdpYjus?si=p5ZAHudX06weY7zn",
+            "portfolioURL": "https://illumination.pya.jp/portfolio/index.html",
+            "prm_image": "GP10"
+        }
+    ],
+    "H123":[
+        {
+            "class":"H123",
+            "number": "23",
+            "name": "渡辺 陽太",
+            "kana": "わたなべ ひなた",
+            "work": "Webデザイナー",
+            "qualification": "色彩検定UC級",
+            "hobby": "ゲーム",
+            "hope_word": "頑張れ",
+            "hope_reason": "自分の目指していた道に進めていたら嬉しい。",
+            "prm_reason": "自分一人ではなく複数人で作ることの大変さを知ることができた。",
+            "youtubeURL": "https://www.youtube.com/embed/NQmVeyXpi_Y?si=RwdlXVaB6XNRijBN",
+            "portfolioURL": "https://2023graduation.tokyo-ec.net/first/pf/h123/",
+            "prm_image": "GP10"
+        }
+    ],
+    "H124":[
+        {
+            "class":"H124",
+            "number": "24",
+            "name": "渡辺 真衣",
+            "kana": "わたなべ まい",
+            "work": "Webデザイナー",
+            "qualification": "色彩検定UC級",
+            "hobby": "好きな舞台作品：カラ降るワンダフル！",
+            "hope_word": "推し",
+            "hope_reason": "推しは推せる時に推して、悔いのない人生にしたいです。",
+            "prm_reason": "進級制作を終えて、グループワークの大切さを学びました。苦手なことを補い合い、意見を交換しあって、新たな学びを多く得ました。",
+            "youtubeURL": "https://www.youtube.com/embed/cliozJCEL3c?si=46QNFdxLVIMHR_aB",
+            "portfolioURL": "https://2023graduation.tokyo-ec.net/first/pf/h124/home.html",
+            "prm_image": "GP11"
+        }
+    ]
+}
+
+
