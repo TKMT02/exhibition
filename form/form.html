@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023年度 １年生の展示会アンケートフォーム</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/loading.js" defer></script>
+    <script src="https://kit.fontawesome.com/a9e8ce8a3d.js" crossorigin="anonymous"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWKTS7GBBM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-ZWKTS7GBBM');
+    </script>
+</head>
+<body>
+    <header>
+        <div class="mainvisual"></div>
+    </header>
+    <div class="shapes">
+        <div class="shapes_diagonal"></div>
+        <div class="shapes_diagonal_1"></div>
+    </div>
+    <div class="container">
+        <h1 class="title">１年生展示会<br class="br">アンケート</h1>
+        <p class="lore">ぜひ皆様のご意見を送りください。</p>
+
+        <form action="form_confirm.php" method="post" autocomplete="off">
+
+            <!--作品選択の画面追加-->
+
+            <div class="select__container">
+                <div class="wrap">
+                    <h2 class="select__no">No.00</h2>
+                    <p>名　前：<span class="select__name">XXXXX</span></p>
+                    <p>作品名：<span class="select__title">XXXXX</span></p>
+                    <a href="./form_select.html" class="select__reselect">選択し直す</a>
+                </div>
+                <img src="#" alt="選択された画像" class="select__image"/>
+
+                <input type="hidden" name="workName" value="??" class="workName">
+                <input type="hidden" name="workTitle" value="??" class="workTitle">
+                <input type="hidden" name="workImage" value="??" class="workImage">
+                <input type="hidden" name="workNo" value="??" class="workNo">
+                <input type="hidden" name="workID" value="??" class="workID">
+                <input type="hidden" name="workGenre" value="??" class="workGenre">
+
+            </div>    
+
+            <h2 class="title_name required">Q.01 お名前</h2>
+                <input type="text" name="name" class="name input" placeholder="電波 小太郎" maxlength="30" required>
+
+            <h2 class="title_name required">Q.02 区分を選択してください。</h2>
+            <label class="selectBox">
+                <select name="select" required>
+                    <option value="企業関係者">企業関係者</option>
+                    <option value="学校関係者・教員・卒業生">学校関係者・教員・卒業生</option>
+                    <option value="保護者・友人">保護者・友人</option>
+                    <option value="その他">その他</option>
+                </select>
+            </label>
+
+            <h2 class="title_name required">Q.03 よかった点やアドバイスをお願いします。</h2>
+                <textarea name="advice" class="text-area" id="InputElement" rows="5" placeholder="内容の入力してください。空白・改行はできませんので、予めご了承ください。" maxlength="500" required></textarea>
+
+            <h2 class="title_name any">Q.04 その他・伝えたいことがございましたらこちらにお願いいたします。</h2>
+                <textarea name="other" class="text-area" id ="InputElement" rows="5" placeholder="内容の入力してください。空白・改行はできませんので、予めご了承ください。" maxlength="500"></textarea>
+
+            <p class="alertMessage">※住所や電話番号などの個人情報は入力しないでください。<br>
+                こちらにご入力いただいた内容について、個別に返答を差し上げることはできません。</p>
+
+            <input type="submit" class="submit-btn" value="送信" />
+        </form>
+    </div>
+    <footer class="footer">
+        <p class="copyright">© 2024 東京電子専門学校1年生 展示会委員会</p>
+    </footer>
+</body>
+</html>

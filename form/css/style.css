@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: "Kiwi Maru", serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  --title: #00A3FF;
+}
+
+.mainvisual {
+  width: 100%;
+  height: 300px;
+  background-image: url("/first/assets/image/header_no.webp");
+  background-position: 20% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  font-size: 3.6em;
+  text-align: center;
+  margin-top: 50px;
+  letter-spacing: 0.2em;
+  color: #00A3FF;
+}
+
+.lore {
+  font-size: 1.8em;
+  text-align: center;
+  margin-top: 20px;
+  letter-spacing: 0.3em;
+}
+
+/* ここからはエラーメッセージのCSS */
+
+.error_message_h{
+  font-size: 3.6em;
+  letter-spacing: 0.04em;
+  color: #ff2d2d;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.error_message_p{
+  font-size: 2.4em;
+  letter-spacing: 0.04em;
+  color: #000;
+  text-align: center;
+  margin: 10px auto;
+}
+
+/* ここからは選択されたフォームのCSS */
+
+.select__container{
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+  margin: 30px auto;
+  font-size: 2.0em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.select__container .wrap{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.select__reselect{
+  display: block;
+  text-align: center;
+  width: 150px;
+  margin: 30px 0;
+  padding: 10px;
+  border: 0.5px solid #000;;
+  border-radius: 24px;
+  cursor: pointer;
+  scale: 0.9;
+  transition: all 0.3s;
+  text-decoration: none;
+  color: #000;
+}
+
+.select__reselect:hover{
+  scale: 1.0;
+  background-color: var(--title);
+  color: #fff;
+}
+
+.select__container .select__no{
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.select__container .select__image{
+  margin: 30px 0;
+  display: block;
+  width: 50%;
+  border: 0.1px solid #000;
+}
+
+/* ここからはフォームのCSS */
+
+.container {
+  max-width: 1200px;
+  width: 70%;
+  min-height: 60vh;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* ここからは装飾 */
+
+.shapes {
+  position: relative;
+  z-index: -99;
+}
+.shapes_diagonal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 3px solid var(--title);
+  width: 20rem;
+  transform: skewY(-45deg);
+}
+.shapes_diagonal_1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 2px solid var(--title);
+  width: 40rem;
+  transform: skewY(-45deg);
+}
+
+/* ここからはフォームの中身 */
+
+
+
+.title_name {
+  font-size: 2.4em;
+  font-weight: normal;
+  display: block;
+  text-align: left;
+}
+
+.title_name span{
+  font-size: 18px;
+}
+
+.name {
+  width: 100%;
+  margin: 1.5rem 0;
+  padding: 0.5rem;
+  font-family: "Kiwi Maru", serif;
+  color: #000;
+  font-size: 2em;
+  border: none;
+  border-bottom: 2px solid var(--title);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.text-area {
+  width: 100%;
+  height: 300px;
+  font-family: "Kiwi Maru", serif;
+  color: #000;
+  margin: 30px auto;
+  resize: none;
+  padding: 10px;
+  font-size: 2.4em;
+  border: none;
+  border-bottom: 2px solid var(--title);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.required::after{
+  content: '必 須';
+  background-color: red;
+  color: #fff;
+  font-size: 30%;
+  border-radius: 24px;
+  padding: 2px 7px;
+  margin: auto 10px;
+}
+
+.any::after{
+  content: '任 意';
+  background-color: rgb(105, 127, 255);
+  color: #fff;
+  font-size: 30%;
+  border-radius: 24px;
+  padding: 2px 7px;
+  margin: auto 10px;
+}
+
+.selectBox {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  margin: 30px 0;
+  font-size: 1.6em;
+}
+
+.selectBox::after {
+  position: absolute;
+  right: 15px;
+  width: 10px;
+  height: 7px;
+  background-color: #202020;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  content: '';
+  pointer-events: none;
+}
+
+.selectBox select {
+  appearance: none;
+  min-width: 230px;
+  height: 2.8em;
+  padding: .4em calc(.8em + 30px) .4em .8em;
+  font-family: "Kiwi Maru", serif;
+  color: #000;
+  border: none;
+  border-bottom: 2px solid #00a3ff;
+  background-color: #fff;
+  color: #000000;
+  font-size: 1.15em;
+  cursor: pointer;
+}
+
+.selectBox select:focus {
+  font-family: "Kiwi Maru", serif;
+  color: #000;
+  outline: none;
+}
+
+
+.submit-btn {
+  display: block;
+  text-align: center;
+  width: 200px;
+  margin: 80px auto;
+  padding: 20px;
+  font-family: "Kiwi Maru", serif;
+  font-size: 1.8em;
+  border: 1px solid #000;;
+  border-radius: 24px;
+  background-color: #fff;
+  cursor: pointer;
+  scale: 0.9;
+  transition: all 0.3s;
+  text-decoration: none;
+  color: #000;
+}
+
+.submit-btn:hover{
+  border: none;
+  scale: 1.1;
+  color: #fff;
+  background-color: var(--title);
+}
+
+
+footer{
+  width: 100%;
+  height: 80px;
+  background: var(--title);
+  margin-top: 50px;
+  margin-bottom: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+/*
+/
+/     確認画面のCSS
+/
+*/
+
+.confirm_box{
+  border: 1px solid #000;
+  margin: 30px 0;
+  background-color: #fff;
+  border-radius: 24px;
+}
+
+.confirm_container{
+  margin: 40px 40px 60px;
+}
+
+.confirm_box .confirm_container h2{
+  margin-left: 30px;
+  font-size: 1.8em;
+}
+
+.confirm_box .confirm_container p{
+  margin: 0 30px 30px;
+  padding: 10px;
+  background-color: #eee;
+  font-size: 1.6em;
+}
+
+.btn_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cfm_btn{
+  display: block;
+  text-align: center;
+  width: 200px;
+  margin: 25px 20px;
+  padding: 20px;
+  font-family: "Kiwi Maru", serif;
+  font-size: 1.8em;
+  border: 1px solid #000;;
+  border-radius: 24px;
+  background-color: #fff;
+  cursor: pointer;
+  scale: 0.9;
+  transition: all 0.3s;
+  text-decoration: none;
+  color: #000;
+}
+
+.cfm_btn:hover{
+  border: none;
+  scale: 1.1;
+  color: #fff;
+  background-color: var(--title);
+}
+
+#back{
+  display: block;
+  margin: 50px auto;
+}
+
+/*
+/
+/   アラートメッセージ
+/
+*/
+.alertMessage{
+  font-size: 1.25em;
+  color: #6e6e6e;
+}
+
+/*
+/
+/   スマホ
+/
+/
+*/
+
+@media screen and (max-width:880px) {
+  .mainvisual {
+    width: 100%;
+    height: 300px;
+    background-image: url("/first/assets/image/header_no.webp");
+    background-position: 80% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .select__container{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    }
+  
+  .select__container .wrap{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .select__container .select__image{
+    margin: 30px auto;
+    display: block;
+    width: 100%;
+  }
+  
+  .select__reselect{
+    margin: 30px auto;
+  }
+  
+  .btn_container{
+    display: flex;
+    flex-direction: column;
+  }
+}

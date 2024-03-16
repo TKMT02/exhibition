@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1年生展示会 アンケート</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/form.css">
+    <script src="https://kit.fontawesome.com/ec4cc7b1ae.js" crossorigin="anonymous"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWKTS7GBBM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-ZWKTS7GBBM');
+    </script>
+</head>
+<body>
+    <header>
+        <div class="mainvisual"></div>
+    </header>
+    <main class="completemain">
+        <div class="container complete">
+            <h1 class="title">送信が完了しました</h1>
+            <h2>アンケートにご協力いただきありがとうございます。</h2>
+            <p>ご回答いただいた内容をもとに、今後の作品制作に努めてまいります。<br>この度は、本校の展示会をご覧いただきありがとうございました。</p>
+
+            <p class="redirect">※この画面は３秒後に自動で戻ります。戻らない場合は<a href="./form_select.html">こちら</a>をクリックしてください。</p>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="copyright">© 2024 東京電子専門学校1年生 展示会委員会</p>
+    </footer>
+    <script>
+        window.addEventListener("DOMContentLoaded", ()=>{
+            setInterval(function() {
+                location.href = "./form_select.html";
+            }, 4000);
+        });
+    </script>
+</body>
+</html>
